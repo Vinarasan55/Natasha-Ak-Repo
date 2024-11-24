@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '9747098'))
 API_HASH = environ.get('API_HASH', '15384775587d976eccc8b367e92a96a3')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5839160503:AAFbQVQIz3rv2xXrtPKQG_yS_1sCtLC0fmA")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5839160503:AAEO0hhB5-JgDl2HM-K4yqLWLTxBaY_ikzc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -64,7 +64,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #Shortner Variables
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_To_Download_URL/94') # How to open tutorial link for verification
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '9672acfd41f4778f06adb1c63d6a241f0c546954')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
@@ -110,7 +110,7 @@ NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = environ.get('APP_NAME', 'mraklinkzz-4a13061a9826')
+    APP_NAME = environ.get('APP_NAME', '')
 else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
@@ -125,7 +125,7 @@ name = str(environ.get('name', 'LazyPrincess'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
-    APP_NAME = str(getenv('APP_NAME', 'mraklinkzz-4a13061a9826'))
+    APP_NAME = str(getenv('APP_NAME', ''))
 
 else:
     ON_HEROKU = False
