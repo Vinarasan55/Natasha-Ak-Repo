@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/54339913c153
 CODE = (environ.get('CODE', 'https://graph.org/file/f06e8bec01d553d934945.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
-STREAM_API = (environ.get('STREAM_API', '9672acfd41f4778f06adb1c63d6a241f0c546954'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'Modijiurl.com'))
+STREAM_API = (environ.get('STREAM_API', '10c4ecad4dbf4ca06857dfeb6cf9b5223552ceaf'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/How_To_Download_URL/94'))
 
 #REFERAL
@@ -62,11 +62,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Shortner Variables
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_To_Download_URL/94') # How to open tutorial link for verification
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '9672acfd41f4778f06adb1c63d6a241f0c546954')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 # Others
 WCHNL = environ.get('WCHNL', 'https://chat.whatsapp.com/Jm79XuRDvxb1Zl1oVL9OTK')
